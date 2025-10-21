@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ResetPassword = () => {
+const ResetPasswordPage = () => {
     return (
         <div>Reset Password</div>
     )
 }
 
-export default ResetPassword
+export default ResetPasswordPage
