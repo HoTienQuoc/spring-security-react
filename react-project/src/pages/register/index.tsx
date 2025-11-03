@@ -83,13 +83,13 @@ const RegisterPage = () => {
                                 <FormItem>
                                     <FormLabel>Password</FormLabel>
                                     <FormControl>
-                                        <Input placeholder="" {...field} />
+                                        <Input placeholder="" type="password" {...field} />
                                     </FormControl>
                                     <FormMessage />
                                 </FormItem>
                             )}
                         />
-                        <Button type="submit" className="w-full bg-black text-white hover:bg-neutral-800">Submit</Button>
+                        <Button type="submit" className="w-full bg-black text-white hover:bg-neutral-800">Register</Button>
                         <h1 className="text-sm">
                             Already have an account,{" "}
                             <Link className="underline" to={'/login'}>Login</Link>
